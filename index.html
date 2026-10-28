@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculadora de cintas transportadoras · DIN 22101</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div id="prt"></div><div class="bgc"></div><div id="md" class="md" hidden role="dialog" aria-modal="true"><div class="mb"><button class="mx" type="button" aria-label="Cerrar">×</button><h3 id="mt"></h3><div id="mc"></div></div></div>
+<header><h1>⚙️ Calculadora de cintas transportadoras</h1><p>Dimensionamiento según DIN 22101 / UNE 58-204-92. Cambia cualquier dato y todo se recalcula al instante.</p></header>
+<main>
+<nav class="tb" id="tb" role="tablist"></nav>
+<nav class="tb" id="tc" role="tablist"></nav>
+<div id="pb"><button id="pdf" type="button">📄 Imprimir cálculos (PDF)</button><span id="pst"></span></div>
+<div id="pn"></div><div id="pc"></div>
+<div class="cd" id="dwc" style="margin-top:14px"><svg id="dw" viewBox="0 0 860 420" role="img" aria-label="Dibujo de la cinta transportadora"></svg><svg id="dw2" viewBox="0 0 860 250" role="img" aria-label="Vista frontal de los rodillos"></svg></div>
+<button id="rs">Restablecer ejemplo resuelto</button>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="calculadora.js"></script>
+</body>
+</html>
